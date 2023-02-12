@@ -13,4 +13,4 @@ spring:
 pharmacy:
   active:
     profile:
-      test: Hello from test..
+      test: Hello from test
