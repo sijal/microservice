@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: spring
+    password: spring
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+  jpa:
+    database-platform: org.hibernate.dialect.Oracle10gDialect
+    show-sql: false
+    generate-ddl: false
+    hibernate:
+      ddl-auto: update
+pharmacy:
+  active:
+    profile:
+      test: Hello from test
