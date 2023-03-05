@@ -1,0 +1,14 @@
+server:
+  port: 7070
+#eureka:
+#  client:
+#    fetch-registry: false
+#    register-with-eureka: false
+#  instance:
+#    hostname: localhost
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://sijal: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@github.com/sijal/microservice.git/config
