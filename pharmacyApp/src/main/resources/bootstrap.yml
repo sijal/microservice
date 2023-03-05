@@ -1,0 +1,7 @@
+spring:
+#  cloud:
+#    config:
+#      uri:
+#      - "configserver:http://localhost:7070"
+  config:
+    import: configserver:http://localhost:7070
