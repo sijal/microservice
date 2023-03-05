@@ -4,4 +4,5 @@ spring:
 #      uri:
 #      - "configserver:http://localhost:7070"
   config:
-    import: configserver:http://localhost:7070
+    import:
+    - configserver:http://localhost:7070
