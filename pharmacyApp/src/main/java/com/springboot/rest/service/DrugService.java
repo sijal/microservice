@@ -10,8 +10,6 @@ import org.springframework.transaction.annotation.Transactional;
 import com.springboot.rest.dto.DrugDetailsDto;
 import com.springboot.rest.repositories.DrugRepository;
 
-import lombok.Data;
-
 @Service
 public class DrugService {
 	@Autowired

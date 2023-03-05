@@ -13,8 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.springboot.rest.dto.DrugDetailsDto;
 import com.springboot.rest.service.DrugService;
 
-import lombok.AllArgsConstructor;
-
 @RestController
 @RequestMapping("/drug")
 @RefreshScope

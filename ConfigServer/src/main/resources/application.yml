@@ -11,5 +11,5 @@ spring:
     config:
       server:
         git:
-#          uri: file:///D:/Suman/workspace/sts_Spring_Durga/Microservice/files
-          uri: https://sijal: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@github.com/sijal/microservice.git
+          uri: https://sijal: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@github.com/sijal/microservice.git/config
+
