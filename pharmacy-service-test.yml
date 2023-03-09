@@ -13,7 +13,7 @@ spring:
 pharmacy:
   active:
     profile:
-      test: Hello from test..
+      test: Hello from test...
 store:
   storeNo: Store1
   storeName: HumtyDumty

@@ -10,8 +10,14 @@ spring:
     generate-ddl: false
     hibernate:
       ddl-auto: update
-
+store:
+  storeNo: StoreDev
+  storeName: Jonny Jill
+  storeManager: James
+  openingHrs: 9
+  closingHrs: 9
+  location: Hawaii
 pharmacy:
   active:
     profile:
-      test: Hello from dev
+      test: Hello from dev...
