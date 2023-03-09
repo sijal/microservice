@@ -14,3 +14,10 @@ pharmacy:
   active:
     profile:
       test: Hello from test..
+store:
+  storeNo: Store1
+  storeName: HumtyDumty
+  storeManager: Steve
+  openingHrs: 8
+  closingHrs: 8
+  location: Peru
