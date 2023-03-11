@@ -15,7 +15,7 @@ pharmacy:
     profile:
       test: Hello from test...
 store:
-  storeNo: Store1
+  storeNo: Store101
   storeName: HumtyDumty
   storeManager: Steve
   openingHrs: 8
