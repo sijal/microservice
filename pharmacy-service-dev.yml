@@ -11,11 +11,11 @@ spring:
     hibernate:
       ddl-auto: update
 store:
-  storeNo: Store130
+  storeNo: Store135
   storeName: Jonny Jill
   storeManager: James
-  openingHrs: 9
-  closingHrs: 9
+  openingHrs: 10
+  closingHrs: 10
   location: Hawaii
 pharmacy:
   active:
