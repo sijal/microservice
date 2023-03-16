@@ -11,10 +11,10 @@ spring:
     hibernate:
       ddl-auto: update
 store:
-  storeNo: Store135
-  storeName: Jonny Jill
+  storeNo: Store200
+  storeName: Meddy Buddy
   storeManager: James
-  openingHrs: 10
+  openingHrs: 9
   closingHrs: 10
   location: Hawaii
 pharmacy:
