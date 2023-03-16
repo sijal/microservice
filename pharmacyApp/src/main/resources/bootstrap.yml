@@ -1,7 +1,13 @@
 spring:
-#  cloud:
-#    config:
-#      uri:
-#      - "configserver:http://localhost:7070"
+  cloud:
+    config:
+      enabled: true
+      uri:
+      - http://localhost:7070/
+      username: user
+      password: user
   config:
-    import: configserver:http://localhost:7070
+    import:
+    - optional:configserver:http://localhost:7070/
+  profiles:
+    active: dev
