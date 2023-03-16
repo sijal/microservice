@@ -11,7 +11,7 @@ spring:
     hibernate:
       ddl-auto: update
 store:
-  storeNo: Store200
+  storeNo: Store225
   storeName: Meddy Buddy
   storeManager: James
   openingHrs: 9
